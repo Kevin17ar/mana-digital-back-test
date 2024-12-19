@@ -42,6 +42,9 @@ $ npm install
 
 1. Create the .env file
 2. Copy all variables from .env.example to the newly created .env file
+3. Configure DATABASE_HOST:
+   - Use "localhost" for local development
+   - Use "db" when running with Docker
 
 If you don't have PostgreSQL installed and want to run the backend locally, run the following command: docker-compose up -d db
 ```bash
